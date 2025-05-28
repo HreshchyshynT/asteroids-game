@@ -46,6 +46,12 @@ def main():
             d.draw(screen)
 
         for asteroid in asteroids:
+            for bullet in shots:
+                if asteroid.is_collision(bullet):
+                    asteroid.split()
+                    bullet.kill()
+                    break
+
             if asteroid.is_collision(player):
                 print("Game over!")
                 exit()
