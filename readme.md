@@ -8,7 +8,7 @@ Built during course on [Boot.dev](https://www.boot.dev)
 You've done all the required steps, but if you'd like to make the project your
 own, here are some ideas:
 
-- Add a scoring system
+- ~~Add a scoring system~~
 - Implement multiple lives and respawning
 - Add an explosion effect for the asteroids
 - Add acceleration to the player movement
